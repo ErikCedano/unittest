@@ -29,8 +29,7 @@ jobs:
       - run:
           name: Mensaje
           command: echo "Esto es un mensaje de prueba"
-
-        steps:
+    steps:
       - run:
           name: Save test results
           command: |
